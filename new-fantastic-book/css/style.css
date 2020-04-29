@@ -197,12 +197,11 @@ p {
 }
 
 .main-book-cover .book-cover {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
     transition: opacity .2s linear;
     -webkit-transition: opacity .2s linear;
     -moz-transition: opacity .2s linear;
@@ -214,12 +213,12 @@ p {
     opacity: .7;
 }
 
-.book-cover .img-cover {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.book-cover img {
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
     transition: opacity .2s linear;
     -webkit-transition: opacity .2s linear;
     -moz-transition: opacity .2s linear;
@@ -232,7 +231,7 @@ p {
 }
 
 .book-cover {
-    padding: 0 30px;
+    margin: 0 30px;
 }
 
 
