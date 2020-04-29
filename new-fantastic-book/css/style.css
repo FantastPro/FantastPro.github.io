@@ -8,6 +8,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.1) 30%), url(../img/biblioteka-derevo-statui.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 *,
@@ -32,9 +36,9 @@ p {
 
 .page {
     width: 100%;
-    background: #000 url(../img/bg.jpg) center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .85);
 }
 
 
@@ -58,7 +62,7 @@ p {
     width: 100%;
     padding: 1rem 0;
 
-    background: #2B7DED;
+    background: rgba(43, 125, 237, 1);
 }
 
 .header-inner {
@@ -96,7 +100,7 @@ p {
 }
 
 .header-nav-link:hover {
-    color: #b2e3fd;
+    color: orange;
 }
 
 .header-nav-link.active {
@@ -108,7 +112,7 @@ p {
     width: 100%;
     height: 2px;
 
-    background-color: orange;
+    background-color: white;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -183,6 +187,15 @@ p {
     padding: 10px 30px 10px 0px;
 }
 
+.main-text::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    background: orange;
+    margin: 0 auto;
+}
+
 .main-book-cover .book-cover {
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -207,7 +220,6 @@ p {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-
     transition: opacity .2s linear;
     -webkit-transition: opacity .2s linear;
     -moz-transition: opacity .2s linear;
@@ -217,4 +229,27 @@ p {
 
 .book-cover .img-cover:hover {
     opacity: .7;
+}
+
+.book-cover {
+    padding: 0 30px;
+}
+
+
+/* ===== .FOOTER ===== */
+
+.footer {
+    padding: 1rem 0;
+    color: #fff;
+
+    background: rgba(43, 125, 237, 1);
+}
+
+.footer a {
+    text-decoration: none;
+    color: orange;
+}
+
+.footer p {
+    text-align: center;
 }
