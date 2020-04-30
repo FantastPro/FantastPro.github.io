@@ -66,6 +66,7 @@ p {
 }
 
 .header-inner {
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,4 +258,61 @@ p {
 
 .footer p {
     text-align: center;
+}
+
+
+/* ===== MEDIA FOR tablet ===== */
+
+
+/* media background */
+
+@media (max-width: 800px) {
+    body {
+        background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.1) 30%), url(../img/biblioteka-bg-800px.jpg) center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+
+/* ====== media header ===== */
+
+
+@media (max-width: 800px) {
+    .header-inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-brand a {
+
+    }
+}
+
+@media (max-width: 800px) {
+    .header-logo img {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-nav-link {
+        align-items: center;
+    }
+}
+
+
+
+/* ===== MEDIA for mobile ===== */
+
+
+@media (max-width: 320px) {
+    body {
+        background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.1) 30%), url(../img/biblioteka-bg-320px-480px.jpg) center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
