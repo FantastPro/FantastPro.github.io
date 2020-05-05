@@ -1,9 +1,9 @@
 html {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     margin: 0;
@@ -52,12 +52,24 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.header__logo a {
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header__logo a:visited {
+    color: #fff;
+}
+
+.header__logo a:hover {
+    color: #ca3e47;
+}
 
 
 /* ====== Nav ====== */
 
 .nav {
-    font-size: 14px;
+    font-size: 1.1rem;
     text-transform: uppercase;
 }
 
@@ -77,9 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     content: "";
     display: block;
     width: 100%;
-    height: 3px;
+    height: 2px;
 
-    background-color: #fce38a;
+    background-color: #ca3e47;
     opacity: 0;
     transition: opacity .2s linear;
 
@@ -91,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
-    color: #fce38a;
+    color: #ca3e47;
 }
 
 .nav__link:hover::after,
@@ -100,10 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link.active {
-    color: #fce38a;
+    color: #ca3e47;
 }
 
 /* ====== Intro ====== */
+
 
 .intro {
     display: flex;
@@ -112,8 +125,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
 
-    background: url("../img/header-bg.jpg") center no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5) 30%), url(../img/header-bg.jpg) center no-repeat;
     background-size: cover;
+
 }
 
 .intro__title::after {
@@ -136,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__suptitle {
     margin-bottom: 20px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Marck Script', cursive;
     font-size: 4.8rem;
     text-align: center;
 
