@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__text {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #525252;
 }
 
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
     News
    ===================== */
 
-.news {
+.news {margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -337,6 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .news__text {
     width: 100%;
+    padding: 0px 10px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -350,4 +351,42 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
     transform: translate3d(0, -50%, 0);
     transition: opacity .1s linear;
+}
+
+
+/* =====================
+    Statistics
+   ===================== */
+
+.statistics {
+       background-color: #e65a64;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat__item {
+    padding: 70px 25px;
+    flex: 1 1 0; /* Set the all column same width  */
+    border-left: 1px solid #b5eae0;
+    text-align: center;
+    color: #fff;
+}
+
+.stat__item:last-child {
+    border-right: 1px solid #b5eae0;
+}
+
+.stat__count {
+    margin-bottom: 10px;
+
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat__text {
+    font-size: 1rem;
+    text-transform: uppercase;
 }
