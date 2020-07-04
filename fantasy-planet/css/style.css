@@ -16,6 +16,19 @@ body {
     box-sizing: border-box;
 }
 
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
