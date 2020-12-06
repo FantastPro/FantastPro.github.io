@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EAF6F6;
+}
+
+hr {
+    border: 5px;
+    border-style: none;
+    border-top-color: rgb(7, 133, 150);
+    border-top-style: dotted;
+    width: 5%;
+}
+
+h1 {
+    color: #66BFBF;
+    text-shadow: 1px 0px 3px;
+}
+
+h3 {
+    display: inline-block;
+    color: #06a7a7;
+    text-shadow: 2px 0px 3px rgb(13, 204, 194);
+    border-bottom: 1px solid rgb(24, 209, 241);
+}
