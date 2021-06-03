@@ -53,5 +53,5 @@
 
 .products-element__btn_active {
     border: 1px solid transparent;
-    border-image: var(--linear-gradient);
+    background-image: var(--linear-gradient);
 }
