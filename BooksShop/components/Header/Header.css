@@ -7,7 +7,12 @@
 
 .header-counter {
     margin-left: auto;
-    padding-right: var(--spasing-large);
+    padding: 0 var(--spacing-small);
+    line-height: 2;
     font-weight: 700;
     cursor: pointer;
+    background-color: var(--color-unaccent);
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
 }

@@ -22,7 +22,8 @@ class Products {
     render() {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
-        CATALOG.forEach(({id, name, price, img, desc}) => {
+
+        CATALOG.forEach(({ id, name, price, img, desc }) => {
             let activeClass = '';
             let activeText = '';
 
@@ -57,4 +58,3 @@ class Products {
 }
 
 const productsPage = new Products()
-productsPage.render()
