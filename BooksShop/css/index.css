@@ -4,6 +4,8 @@
     --color-unaccent: #808080;
     --color-medium: #e8e8e8;
     --color-dark: #a1a1a1;
+    --color-error-light: #e65462;
+    --color-error-dark: #d65c5c;
 
     --spacing-really-small: 5px;
     --spacing-small: 10px;
@@ -14,6 +16,7 @@
     --border-radius-medium: 5px;
     --border-radius-large: 10px;
     --linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+    --linear-gradient-error: radial-gradient(cirle, #f54387, #f56792, #ee1035, #d715e9, #fd0519);
 	--box-shadow:
 		0 16px 24px 2px rgba(33,37,41,.02),
 		0 6px 30px 5px rgba(33,37,41,.04),

@@ -1,0 +1,26 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.error-message {
+    min-width: 400px;
+    padding: 20px 40px;
+    text-align: center;
+    /* background-color: var(--color-error-light); */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+    box-shadow: var(--box-shadow);
+    color: var(--color-white);
+    border-left: 7px solid var(--color-error-dark);
+    border-radius: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+

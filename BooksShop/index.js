@@ -14,7 +14,7 @@ let CATALOG = [];
 // "https://api.jsonbin.io/b/60ba18fa9fc30168f1c3634e/latest"
 // 'server/catalog.json'
 
-fetch("https://api.jsonbin.io/b/60ba18fa9fc30168f1c3634e/latest")
+fetch("https://api555.jsonbin.io/b/60ba18fa9fc30168f1c3634e/latest")
     .then(res => res.json())
     .then(body => {
         CATALOG = body;
@@ -24,5 +24,6 @@ fetch("https://api.jsonbin.io/b/60ba18fa9fc30168f1c3634e/latest")
 
     })
     .catch(error => {
-        console.log(error);
+        spinnerPage.handleClear();
+        errorPage.render();
     })
