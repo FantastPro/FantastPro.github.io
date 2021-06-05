@@ -1,6 +1,6 @@
 .shopping-container {
-    width: 97%;
-    height: 97vh;
+    width: 90%;
+    height: 90vh;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -9,6 +9,7 @@
     padding: var(--spasing-large);
     background-color: var(--color-white);
     box-shadow: var(--box-shadow);
+    border-radius: 1rem;
 }
 
 .shopping-element__name {

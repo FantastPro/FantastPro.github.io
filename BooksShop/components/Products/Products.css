@@ -19,7 +19,14 @@
 
 .products-element__name {
     font-weight: bold;
+    line-height: 1.4;
     min-height: 70px;
+}
+
+.products-element__name:hover {
+    text-shadow: 1px 2px 5px rgb(212, 212, 212);
+    border-bottom: 1px solid var(--border-bottom);
+    border-radius: .5rem;
 }
 
 .products-element__img {
@@ -36,7 +43,6 @@
 
 .products-element__price {
     color: var(--color-unaccent);
-
 }
 
 .products-element__btn {
@@ -54,4 +60,8 @@
 .products-element__btn_active {
     border: 1px solid transparent;
     background-image: var(--linear-gradient);
+}
+
+.products-element__icon {
+    width: .9rem;
 }
