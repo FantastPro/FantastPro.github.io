@@ -42,6 +42,7 @@
 }
 
 .products-element__price {
+    padding-top: 1rem;
     color: var(--color-unaccent);
 }
 
