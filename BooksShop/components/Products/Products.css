@@ -10,7 +10,6 @@
 .products-element {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     padding: 25px 20px;
     background-color: var(--color-white);
     border-radius: var(--border-radius-large);
